@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+	background:#000;
+	
+}
+.hero {
+    position: relative;
+    width: 100vw;
+    height:180vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+   
+    background: url(image/speeches.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(100%);
+	
+}
+.hero-content {
+    position: relative;
+	font-family: "Monserrat", sans-serif;
+    color: #F05941;
+  
+   
+}
+.hero-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+
+	
+}
+.hero-subtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    
+	color:#FFEED9;
+	
+}
+.hero-button {
+    background-color: #orange;
+	opacity:50%;
+    color: #000;
+    border: 2px solid #cb376a;
+    margin-top:10rem;
+	margin-left:40rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    cursor: pointer;
+	border-radius:10%;
+}
+.hero-button:hover {
+    background-color: #439;
+	opacity:50%;
+    border: 1px solid #db7598;
+}
+
+/*#showcase {
+	 
+	background-color:#000;
+	background-image: url("images/about.jpg" );
+	background-size:center;
+	background-repeat: no-repeat;
+	background-position:center;
+	height:180vh;
+	 width: 100vw;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.aboutbtn {
+	background:#000;
+	color:#FFA33C;
+	font-size:25px;
+	margin-left:550px;
+}
+.aboutbtn:hover {
+	 background-color: #439;
+	opacity:50%;
+    border: 1px solid #db7598;
+}*/

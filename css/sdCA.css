@@ -1,0 +1,81 @@
+
+
+body {
+	background:#000;
+}
+#grad { background: linear-gradient(200deg,#E49393,#E49393,#57C5B6, #D5B4B4,#B7B78A);}
+grad2 { background-image: linear-gradient(275deg, #AED2FF,#999,#7C81AD, #213555,#016A70);color: #000; padding:25px;border-radius:20px;}
+grad3 { background-image: linear-gradient(33deg,brown,gray,pink,#57C5B6,#C2D9FF,#C2D9FF, #E49393,orange );color: #000; padding:25px;border-radius:20px;}
+.hdrimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	max-width:100%;
+	
+}
+h1 {
+	text-align:center;
+	font-size:3em;
+	color:#555843;
+}
+.h1today {
+	color:#fff;
+}
+.balprk {
+	font-size:20px;
+}
+button {
+	margin:20px 0 0 100px;
+	padding: 5px 10px 5px 10px;
+	background:teal;
+	border-radius:15%;
+	font-size:15px;
+	 
+}
+button:hover {
+      background-color:#BFB29E;
+      transition: 0.7s;
+	
+  }
+.main {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:15px;
+}
+.main {
+	width:100%;min-height: 200px;
+}
+@media only screen and (min-device-width:778px) and (max-device-width:1024px;){
+    body{background-color:#ccc;
+    }
+}
+.png {
+	float:right;
+	max-width:100%;
+}
+.png1 {
+	float:left;
+	margin:10px;
+	max-width:100%;
+}
+.img1 {
+	 float:left;
+	 padding:0 5px 19px 0;
+	 margin-bottom:-15px;
+	 max-width:100%;
+ }
+
+img1:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+box3 {
+	background:#000;
+}
+
